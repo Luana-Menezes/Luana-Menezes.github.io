@@ -37,9 +37,13 @@ h6 {
 
 
 .title-aside-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  background: blue;
   justify-content: center;
+  -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+      align-self: center;
 
 
 }
@@ -48,10 +52,11 @@ h6 {
 .title-aside {
     /*transform: rotate(90deg);*/
     margin: 0;
-    writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
+        -ms-writing-mode: tb-lr;
+            writing-mode: vertical-lr;
     font-weight: 300;
     background: pink;
-    align-self: center;
     /*transform-origin: left top 0;
     float: left;*/
 
