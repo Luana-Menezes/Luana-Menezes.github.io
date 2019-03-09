@@ -46,6 +46,7 @@ h6 {
       align-self: center;
   -webkit-perspective: 1000;
   -webkit-backface-visibility: hidden;
+  overflow: hidden;
 
 
 }
