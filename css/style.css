@@ -46,16 +46,12 @@ h6 {
       align-self: center;
   -webkit-perspective: 1000;
   -webkit-backface-visibility: hidden;
-  overflow: hidden;
-
-
 }
 
 
 .title-aside {
     /*transform: rotate(90deg);*/
-    margin: 0;
-    font-size:.8rem;
+    font-size:.9rem;
     -webkit-writing-mode: vertical-lr;
         -ms-writing-mode: tb-lr;
             writing-mode: vertical-lr;
