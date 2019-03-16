@@ -38,31 +38,34 @@ h6 {
 
 .title-aside-wrapper {
   display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: center;
+    display: -ms-flexbox;
+      display: flex;
+  -webkit-box-pack: center;
+    -ms-flex-pack: center;
+      justify-content: center;
   -ms-flex-item-align: center;
     -ms-grid-row-align: center;
       align-self: center;
   -webkit-perspective: 1000;
   -webkit-backface-visibility: hidden;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 
 .title-aside {
-    transform: rotate(90deg);
-    transform-origin: top left 0;
+    /*transform: rotate(90deg);
+    transform-origin: 255% 55% 0;
+    -webkit-transform: rotate(90deg);
+    -webkit-transform-origin: 255% 55% 0;
+    -moz-transform: rotate(90deg);
+    -moz-transform-origin: 255% 55% 0;*/
+    /*transform-origin: top left 0;*/
     font-size:.9rem;
-    /*-webkit-writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
         -ms-writing-mode: tb-lr;
-            writing-mode: vertical-lr;*/
-
+            writing-mode: vertical-lr;
     font-weight: 300;
     background: pink;
-    /*transform-origin: left top 0;
-    float: left;*/
-
 }
 
 .bg-laranja {

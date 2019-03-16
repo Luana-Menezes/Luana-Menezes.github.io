@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  var $element = $('#servicos');
+  var $element = $('#aside');
   var $follow = $element.find('.title-aside-wrapper');
   var followHeight = $element.find('.title-aside-wrapper').outerHeight();
   var height = $element.outerHeight();
