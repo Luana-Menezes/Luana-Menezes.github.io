@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  var $element = $('#aside');
+  var $element = $('#servicos');
   var $follow = $element.find('.title-aside-wrapper');
   var followHeight = $element.find('.title-aside-wrapper').outerHeight();
   var height = $element.outerHeight();
@@ -18,9 +18,7 @@ $(document).ready(function () {
     if (offset > 0) {
     $follow.css('transform', 'translateY('+ offset +'px)');
     }
-
   });
-
 });
 
 $(document).ready(function () {
