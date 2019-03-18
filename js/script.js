@@ -10,8 +10,6 @@ $(document).ready(function () {
     var top = $element.offset().top;
 
 
-
-    // Check if element totally above or totally below viewport
     if (top + height - followHeight < pos + (window_height / 2 - followHeight / 2) || top > pos + (window_height / 2 - followHeight / 2) ) { 
     	return; 
     } 
@@ -37,8 +35,6 @@ $(document).ready(function () {
     var top = $element.offset().top;
 
 
-
-    // Check if element totally above or totally below viewport
     if (top + height - followHeight < pos + (window_height / 2 - followHeight / 2) || top > pos + (window_height / 2 - followHeight / 2) ) { 
     	return; 
     } 

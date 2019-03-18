@@ -45,6 +45,9 @@ h6 {
 
 
 .title-aside-wrapper {
+-webkit-transform:translate3d(0,0,0);
+-webkit-perspective: 1000;
+-webkit-backface-visibility: hidden;
   display: -webkit-box;
     display: -ms-flexbox;
       display: flex;
@@ -54,15 +57,15 @@ h6 {
 /*  -ms-flex-item-align: center;
     -ms-grid-row-align: center;
       align-self: center;*/
-  -webkit-perspective: 1000;
-  -webkit-backface-visibility: hidden;
-/*  -webkit-transform:translate3d(0,0,0);*/
+
+
   /*text-align: center;*/
   overflow: hidden;
 }
 
 
 .title-aside {
+  -webkit-transform: translate3d(0, 0, 0);
     /*transform: rotate(90deg);
     transform-origin: 255% 55% 0;
     -webkit-transform: rotate(90deg);
@@ -78,6 +81,8 @@ h6 {
     background: pink;
     font-size: 3rem;
     width: 3rem;
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
 }
 
 .bg-laranja {
