@@ -28,6 +28,14 @@ h6 {
 
 */
 
+.hyphenate {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
 
 /*TEMP STYLES*/
 
@@ -43,12 +51,14 @@ h6 {
   -webkit-box-pack: center;
     -ms-flex-pack: center;
       justify-content: center;
-  -ms-flex-item-align: center;
+/*  -ms-flex-item-align: center;
     -ms-grid-row-align: center;
-      align-self: center;
-  -webkit-perspective: 1000;
-  -webkit-backface-visibility: hidden;
+      align-self: center;*/
+/*  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;*/
+  -webkit-transform:translate3d(0,0,0);
   /*text-align: center;*/
+  overflow: hidden;
 }
 
 
@@ -60,16 +70,22 @@ h6 {
     -moz-transform: rotate(90deg);
     -moz-transform-origin: 255% 55% 0;*/
     /*transform-origin: top left 0;*/
-    font-size:.9rem;
+    /*font-size:.9rem;*/
     -webkit-writing-mode: vertical-lr;
         -ms-writing-mode: tb-lr;
             writing-mode: vertical-lr;
     font-weight: 300;
     background: pink;
+    font-size: 3rem;
+    width: 3rem;
 }
 
 .bg-laranja {
   background-color:#de4e2c;
+}
+
+.texto-laranja {
+  color:#de4e2c;
 }
 
 /*
@@ -118,6 +134,26 @@ h6 {
 --------------------------------------------------
  SERVIÇOS
 -------------------------------------------------- */
+.servicos-item {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.servicos-item img {
+  width: 160px;
+  margin-bottom: 1rem;
+}
+
+.servicos-item h2 {
+  font-size: 1.5rem;
+  color: #de4e2c;
+  font-weight: 700;
+
+}
+
+.serviços-item p {
+  font-size: 1.25em;
+}
 
 /*
 --------------------------------------------------
