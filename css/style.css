@@ -54,8 +54,8 @@ h6 {
 /*  -ms-flex-item-align: center;
     -ms-grid-row-align: center;
       align-self: center;*/
-/*  -webkit-perspective: 1000;
-  -webkit-backface-visibility: hidden;*/
+  -webkit-perspective: 1000;
+  -webkit-backface-visibility: hidden;
   -webkit-transform:translate3d(0,0,0);
   /*text-align: center;*/
   overflow: hidden;
