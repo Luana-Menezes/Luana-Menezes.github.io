@@ -109,20 +109,15 @@ h6 {
  HEADER
 -------------------------------------------------- */
 
-#carousel-header .carousel-item img {
+#carousel-header .carousel-item {
   height: 100vh;
   min-height: 350px;
-  /*background: no-repeat center center scroll;
+  background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;*/
+  background-size: cover;
 }
-
-#carousel-portifolio .carousel-item img {
-  min-height: 350px;
-}
-
 
 /* Carousel base class */
 #carousel-header {
@@ -171,11 +166,22 @@ h6 {
 
 
 .tablet {
-  display: flex;
+  /*display: flex;*/
   border-radius: 25px;
-  padding: 20px;
-  height: 530px;
-  padding: 60px;
+  padding: 1rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+#carousel-portifolio .carousel-item {
+  height: 50vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /*
