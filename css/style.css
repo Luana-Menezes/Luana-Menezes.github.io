@@ -160,9 +160,15 @@ h6 {
  PORTIFÓLIO/PROJETOS
 -------------------------------------------------- */
 
-#projetos {
-  height: 768px;
+#projetos .carousel-item img {
+  height: 100vh; 
+  object-fit: cover;
+  -o-object-fit: cover;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
 }
+
+
 
 
 .tablet {
@@ -173,16 +179,6 @@ h6 {
   margin-bottom: 50px;
 }
 
-
-#carousel-portifolio .carousel-item {
-  height: 50vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
 /*
 --------------------------------------------------
