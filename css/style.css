@@ -161,15 +161,27 @@ h6 {
 -------------------------------------------------- */
 
 #projetos .carousel-item img {
-  height: 100vh; 
+  height: 
   object-fit: cover;
   -o-object-fit: cover;
-  -ms-writing-mode: tb-rl;
-  writing-mode: vertical-rl;
 }
 
+#projetos .carousel-caption{
+  opacity:0;
+  transition:500ms ease-in-out;
+}
 
+#projetos .carousel-item:hover .carousel-caption{
+  opacity:1;
+}
 
+.btn-projetos {
+    font-weight: 600;
+    background-color: white;
+    color: #de4e2c;
+    border-color: #de4e20;
+
+}
 
 .tablet {
   /*display: flex;*/
@@ -178,6 +190,8 @@ h6 {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+
 
 
 /*
