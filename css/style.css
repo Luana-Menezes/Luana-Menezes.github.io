@@ -11,12 +11,10 @@ Version: 1.0
  GLOBAL STYLES
 -------------------------------------------------- */
 body {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
 }
 
-
-/*
 h1,
 h2,
 h3,
@@ -26,7 +24,7 @@ h6 {
   font-weight: 700 !important;
 }
 
-*/
+
 
 .hyphenate {
   overflow-wrap: break-word;
@@ -65,6 +63,8 @@ h6 {
 
 
 .title-aside {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100!important;
   -webkit-transform: translate3d(0, 0, 0);
     /*transform: rotate(90deg);
     transform-origin: 255% 55% 0;
@@ -78,11 +78,12 @@ h6 {
         -ms-writing-mode: tb-lr;
             writing-mode: vertical-lr;
     font-weight: 300;
-    background: pink;
+/*    background: pink;*/
     font-size: 3rem;
     width: 3rem;
   -webkit-perspective: 1000;
   -webkit-backface-visibility: hidden;
+
 }
 
 .bg-laranja {
@@ -93,6 +94,9 @@ h6 {
   color:#de4e2c;
 }
 
+.texto-branco {
+  color: #ffffff;
+}
 /*
 --------------------------------------------------
  NAVBAR
@@ -161,7 +165,6 @@ h6 {
 -------------------------------------------------- */
 
 #projetos .carousel-item img {
-  height: 
   object-fit: cover;
   -o-object-fit: cover;
 }
@@ -180,18 +183,14 @@ h6 {
     background-color: white;
     color: #de4e2c;
     border-color: #de4e20;
-
 }
 
 .tablet {
-  /*display: flex;*/
-  border-radius: 25px;
+  border-radius: 1.5rem;
   padding: 1rem;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
 }
-
-
 
 
 /*
@@ -225,6 +224,11 @@ h6 {
 
 /* MD*/
 @media (min-width: 768px) {
+
+#carousel-header .carousel-caption h2 {
+  font-size: 5rem;
+}
+
 
 }
 
